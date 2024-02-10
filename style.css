@@ -1,0 +1,224 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  
+  
+  }
+  .header{
+      width: 100vw;
+      height: 50px;
+      margin: auto;
+      position: fixed;
+      background-color: blue;
+    
+  }
+  
+  
+  .logo{
+      width: 200px;
+      float: left;
+      height: 70px;
+  }
+  
+  h2{
+      color:white;
+      font-size: 20px;
+      padding-left: 20px;
+      float: left;
+      padding-top: 10px;
+      margin-top: 5px;
+      font-family: 'Delius Unicase';
+  }
+  
+  .menu{
+      width: 400px;
+      float: left;
+      height: 70px;
+  
+  
+  }
+  
+  ul{
+      float: left;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  ul li{
+      list-style: none;
+      margin-left: 62px;
+      margin-top: 15px;
+      font-size: 14px;
+      
+  }
+  
+  
+  ul li a{
+  text-decoration: none;
+  color: #fff;
+  transition: 0.4s ease-in-out;
+  }
+  .search{
+   width: 100px;
+    float: left;
+    margin-left: 200px;
+  }
+  
+  #search_btn{
+    width: 150px;
+     height: 40px;
+   background: white;
+    margin-top: 5px;
+    border-radius: 35px;
+    background-image: url('images/download.png');
+    background-repeat: no-repeat;
+    background-position: right;
+padding-right: 10px;
+   transition: 0.2s ease;
+    cursor: pointer;
+  }
+  
+  #icon{
+    float: right;
+    padding-right: 60px;
+    margin-top: 5px;
+     
+  }
+  
+  #icon img{
+  color: white;
+  }
+
+
+.container {
+  display: flex;
+}
+
+.card_img img{
+  height: 330px;
+  height: 60vh;
+  padding-top: 60px;
+  margin-left: 20px;
+}
+
+.card_text textarea{
+  float: right;
+  width: 50vw;
+  height: 50vh;
+  margin: 70px 70px;
+  padding: 30px 30px;
+  border-radius: 5px;
+  resize: none;
+  background-color: rgb(146, 138, 153);
+  
+  
+}
+
+.sticky img{
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  width: 70px;
+  
+}
+
+.container_one {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fir{
+  margin: 5px 5px;
+  width: 200px;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  background-color: skyblue;
+  
+}
+
+.sec{
+  margin: 5px 5px;
+  width: 200px;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  background-color:blue;
+  
+}
+
+.thir{
+  margin: 5px 5px;
+  width: 200px;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  background-color: palevioletred;
+  
+}
+
+.for{
+  margin: 5px 5px;
+  width: 200px;
+  text-align: center;
+  border-radius: 15px;
+  color: white;
+  background-color: rgb(78, 32, 32);
+}
+
+
+.footer {
+  display: flex;
+  background-color: blue;
+  justify-content: space-around;
+}
+
+.left_footer {
+  margin: 20px 20px;
+  padding: 30px 30px;
+  width: 750px;
+  height: 270px;
+}
+
+#btn_fir {
+  background-color: aquamarine;
+}
+
+.btn {
+  margin: 15px 15px;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.right_footer {
+  background-color: white;
+  margin: 40px 40px;
+  padding: 20px;
+  padding-left: 60px;
+}
+
+.last {
+  width: 750px;
+  padding-left: 10px;
+}
+.box {
+  padding-right: 120px;
+  background-color: black;
+  color: white;
+  padding: 25px 15px;
+  margin: 5px 5px;
+}
+
+
+.icon img{
+width: 70px;
+  margin: 5px 5px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  
+  
+}
